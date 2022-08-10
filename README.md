@@ -45,6 +45,13 @@ You should respond with either two of the following phrases:
 * Age greater or equal to 20: `Hi [name]! You are older than me.`
 * Age lesser than 20: `Hi [name]! You are younger than me.`
 
+An example run to `respond('Eric', 28)` is `Hi Eric! You are older than me`.
+
+You should use [string interpolation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) to do this. For example, if I wanted to respond with a variable `let w = 'Jello'` in a string, you could say 
+```
+let w = 'Jello';
+let phrase = `${w} is yummy`; // Jello is yummy
+```
 ## 2. RGB to CMYK
 Color spaces are used to represent color differently. Print uses a subtractive color space composed of cyan, magenta, yellow, and black (CMYK). Digital uses an additive color space composed of red, green, and blue (RGB). Write a function that converts an input `r,g,b` value to `c,m,y,k` value. Use the following formulas: 
 
@@ -56,4 +63,9 @@ yellow = (white - blue/255)/white
 black = 1 - white
 ```
 
-Keep in mind that you will have to account for black. When all RGB values are black, white is zero. You cannot divide by 0 (you’ll get `NaN`) so you’ll have to figure out a way to handle this. A helpful function built in is [`Math.max()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max).
+An example run to `convert(255,143,0)` should be the array `[0.0,0.4392156862745098,1.0,0.0]`. You needn’t touch the final return value, and instead just set the variable values for `c,m,y,k` correctly.
+
+Keep in mind that you will have to account for black. When all RGB values are black, white is zero. You cannot divide by 0 (you’ll get `NaN`) so you’ll have to figure out a way to handle this. A helpful function built in is [`Math.max()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max). 
+```
+let m = Math.max(5,10) // m = 10
+```
