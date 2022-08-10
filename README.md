@@ -31,6 +31,8 @@ In the folder `0-hello-world`, you will find two files:
 
 Your code is working if, in the browser, you see `Hello, World!` displayed prominently. It should also appear in the console.
 
+All exercises will follow this format. There will be an `index.html` file that is used to render the results of your code, and then a separate `.js` file for you to write your code.
+
 ## 1. Alice, meet Bob
 Alice and Bob are [two names](https://en.wikipedia.org/wiki/Alice_and_Bob) often used in the field of cryptography as placeholders for individuals. 
 
