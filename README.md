@@ -17,7 +17,13 @@ Then, navigate to `http://localhost:8000` in Google Chrome. You should see a pag
 
 When you are done, type `control-c` into your terminal where the web server is running to stop it.
 
+**As you develop, you may notice that your webpage does not always display the most up to date information. Make sure that you [disable cache](https://stackoverflow.com/a/7000899) or hard refresh Google Chrome (`Shift-Command-R`).**
+
 ## 0. Hello, World!
+
+<img width="500" src="https://user-images.githubusercontent.com/207651/184189080-d594f49f-6e43-48d2-bc7e-a0d31618c50c.png">
+
+
 In the folder `0-hello-world`, you will find two files:
 ```
 0-hello-world
@@ -34,6 +40,9 @@ Your code is working if, in the browser, you see `Hello, World!` displayed promi
 All exercises will follow this format. There will be an `index.html` file that is used to render the results of your code, and then a separate `.js` file for you to write your code.
 
 ## 1. Alice, meet Bob
+
+<img src="https://user-images.githubusercontent.com/207651/184188689-a8208f47-d96e-482a-87d3-c95bcb3ac77b.gif" width="500">
+
 Alice and Bob are [two names](https://en.wikipedia.org/wiki/Alice_and_Bob) often used in the field of cryptography as placeholders for individuals. 
 
 In this exercise, you pretend to be Alice, in an attempt to befriend Bob and steal his NFTs. You pose as a 20 year old individual and ask him his *name* and *age* (numerical only), in order to confirm his identity.
@@ -53,6 +62,9 @@ let w = 'Jello';
 let phrase = `${w} is yummy`; // Jello is yummy
 ```
 ## 2. RGB to CMYK
+
+<img src="https://user-images.githubusercontent.com/207651/184187571-264b74ce-9ba2-456f-b764-c007f029de97.gif" width="500">
+
 Color spaces are used to represent color differently. Print uses a subtractive color space composed of cyan, magenta, yellow, and black (CMYK). Digital uses an additive color space composed of red, green, and blue (RGB). Write a function that converts an input `r,g,b` value to `c,m,y,k` value. Use the following formulas: 
 
 ```
