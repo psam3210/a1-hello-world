@@ -10,6 +10,11 @@ Your code is preliminarily autograded on submission. Additional feedback and sco
 
 Those savvy enough are also welcome to run tests locally. You will need [Node.js](https://nodejs.org/en/) installed, and then run `npm install` followed by `npm test`.
 
+## Your environment
+If you have not done so already in class, create a [GitHub](https://github.com/) Account and [register as a student](https://education.github.com/), install [GitHub Desktop](https://desktop.github.com/), [VSCode](https://code.visualstudio.com/), and [Google Chrome](https://www.google.com/chrome/).
+
+In your filesystem, create a new folder called `dev` in your Home folder. This is where your code for this class will live. We’re now ready to clone down our assignment! When you open GitHub Desktop, you should be given the option to add or clone an existing directory. Select `f22-psam3210/a1-hello-world-[your-username]` and clone it to your computer. Set your Local Path into your `dev` folder that you just created.
+
 ## Development server
 To properly run this assignment and all future assignments, you will need a webserver running. This is different than accessing files directly in in your browser as you may have done previously, and comes with many benefits. To run a webserver that serves your content (and therefore can be accessible from other devices too), `cd` into `a1` and type `python3 -m http.server` into your terminal. On older devices, you may also have to use `python -m SimpleHTTPServer` instead, but they do the same thing. 
 
