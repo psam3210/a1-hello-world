@@ -22,6 +22,10 @@ Then, navigate to `http://localhost:8000` in Google Chrome. You should see a pag
 
 When you are done, type `control-c` into your terminal where the web server is running to stop it.
 
+### VSCode Option
+
+VSCode supports a wide range of [extensions](https://marketplace.visualstudio.com/vscode) that are written by its community. One such extension is the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension, which allows VSCode to run a development server for you to access. You are also welcome to use this for your development.
+
 **As you develop, you may notice that your webpage does not always display the most up to date information. Make sure that you [disable cache](https://stackoverflow.com/a/7000899) or hard refresh Google Chrome (`Shift-Command-R`).**
 
 ## 0. Hello, World!
