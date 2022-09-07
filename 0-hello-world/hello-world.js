@@ -1,6 +1,8 @@
 // Your code here
 const helloWorld = () => {
-  return '';
+  let response = '';
+
+  return response;
 }
 // End your code
 

@@ -1,7 +1,8 @@
 // Your code here
 const respond = (name, age) => {
+  let response = '';
   
-  return '';
+  return response;
 }
 // End your code
 
